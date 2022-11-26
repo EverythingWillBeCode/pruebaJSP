@@ -1,4 +1,3 @@
-
 <%@page import="java.util.List" %>
 <%@page import="logica.Persona" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,10 +11,11 @@
         <h1>Lista Personas</h1>
         
         <% 
-            List <Personas> listaPersonas = (List) request.getSession().getAttribute("listaPersonas");
+            List <Persona> listaPersonas = (List) request.getSession().getAttribute("listaPersonas");
             for (Persona per : listaPersonas) {
         %>
         
+        <p><b>Id: </b><%= per.getId()%></p>
         <p><b>Dni: </b><%= per.getDni()%></p>
         <p><b>Nombre: </b><%= per.getNombre()%></p>
         <p><b>Apellido: </b><%= per.getApellido()%></p>

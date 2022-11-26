@@ -6,6 +6,7 @@ package logica;
 
 import java.util.List;
 import persistencia.ControladoraPersistencia;
+import persistencia.PersonaJpaController;
 
 /**
  *
@@ -28,6 +29,10 @@ public class Controladora {
     
     public List<Persona> traerPersonas(){
         return controlPersis.traerPersonas();
+    }
+    
+    public void modificarPersona(Persona pers){
+             controlPersis.modificarPersona(pers);
     }
     
 }

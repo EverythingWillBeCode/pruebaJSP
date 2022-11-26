@@ -5,10 +5,14 @@
         <group>
             <file>file:/C:/Users/Silforoso/OneDrive/Documents/NetBeansProjects/EjemploJSP/web/index.jsp</file>
             <file>file:/C:/Users/Silforoso/OneDrive/Documents/NetBeansProjects/EjemploJSP/web/verPersonas.jsp</file>
+            <file>file:/C:/Users/Silforoso/OneDrive/Documents/NetBeansProjects/EjemploJSP/src/java/servlets/SvModificar.java</file>
+            <file>file:/C:/Users/Silforoso/OneDrive/Documents/NetBeansProjects/EjemploJSP/src/java/persistencia/PersonaJpaController.java</file>
+            <file>file:/C:/Users/Silforoso/OneDrive/Documents/NetBeansProjects/EjemploJSP/web/modificarPersona.jsp</file>
             <file>file:/C:/Users/Silforoso/OneDrive/Documents/NetBeansProjects/EjemploJSP/src/java/servlets/SvPersona.java</file>
             <file>file:/C:/Users/Silforoso/OneDrive/Documents/NetBeansProjects/EjemploJSP/src/java/persistencia/ControladoraPersistencia.java</file>
-            <file>file:/C:/Users/Silforoso/OneDrive/Documents/NetBeansProjects/EjemploJSP/src/java/logica/Persona.java</file>
             <file>file:/C:/Users/Silforoso/OneDrive/Documents/NetBeansProjects/EjemploJSP/src/java/logica/Controladora.java</file>
+            <file>file:/C:/Users/Silforoso/OneDrive/Documents/NetBeansProjects/EjemploJSP/src/java/logica/Persona.java</file>
+            <file>file:/C:/Users/Silforoso/OneDrive/Documents/NetBeansProjects/EjemploJSP/src/java/servlets/SvEliminar.java</file>
         </group>
     </open-files>
 </project-private>

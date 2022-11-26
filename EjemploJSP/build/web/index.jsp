@@ -28,10 +28,18 @@
         </form>
         
         <h2>Eliminar Personas</h2>
-        <p>Ingrese el DNI de la pesona a eliminar</p>
-        <form action=" " method=" ">
-            <p><label>Dni:</label> <input type="text" name="dni_elim"></p>
-            <button type="submit">Eliminar</button>
+        <p>Ingrese el Id de la pesona a eliminar</p>
+        <form action="SvEliminar" method="POST">
+            <p><label>Id:</label> <input type="text" name="id_eliminar"></p>
+            <button type="submit" >Eliminar</button>
+        </form>
+        
+        <h2>Modificar Persona</h2>
+        <p>Ingrese el Id de la persona a modificar</p>
+        <form action="modificarPersona.jsp" >
+            <p><label>Id:</label> <input type="text" name="id_modificar"></p>
+            <input type="submit" value="Modificar" name="Modificar" />
+                        
         </form>
        
         

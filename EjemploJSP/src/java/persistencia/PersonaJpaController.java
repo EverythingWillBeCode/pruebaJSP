@@ -56,6 +56,7 @@ public class PersonaJpaController implements Serializable {
         try {
             em = getEntityManager();
             em.getTransaction().begin();
+            //em.createQuery(cu)
             persona = em.merge(persona);
             em.getTransaction().commit();
         } catch (Exception ex) {

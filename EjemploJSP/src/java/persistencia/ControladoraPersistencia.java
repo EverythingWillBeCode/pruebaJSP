@@ -40,6 +40,14 @@ public class ControladoraPersistencia {
     public List<Persona> traerPersonas(){
         return persJPA.findPersonaEntities();
     }
+    
+    public void modificarPersona(Persona pers){
+        try {
+            persJPA.edit(pers);
+        } catch (Exception ex) {
+            Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, "No se pudo modificar" + pers.getApellido(), ex);
+        }
+    }
 }
 
 
